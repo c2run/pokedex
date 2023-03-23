@@ -8,6 +8,8 @@ import styles from "./pokemons.module.css";
 
 const Pokemons = () => {
     const [query, setQuery] = useState("");
+
+
   return (
    <>
    <Header query={query} setQuery={setQuery} />
