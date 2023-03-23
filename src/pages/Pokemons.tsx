@@ -1,8 +1,17 @@
-import React from 'react'
-
+import Header from '../components/Header';
 const Pokemons = () => {
   return (
-    <div>Pokemons</div>
+   <>
+   <Header />
+
+   <main>
+        <h1>Pokemons</h1>
+   </main>
+
+   <footer>
+    Footer
+   </footer>
+   </>
   )
 }
 
