@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.app{
+  display: grid;
+  grid-template-rows: auto 1fr;
+  min-height: 100vh;
+}
+
+.app Main{
+  padding: 10px;
+  height: 100%;
+  overflow: auto;
+}

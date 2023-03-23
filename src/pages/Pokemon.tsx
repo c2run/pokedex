@@ -4,6 +4,7 @@ const Pokemon = () => {
     const {name} = useParams();
   return (
     <div>{name}</div>
+    
   )
 }
 
