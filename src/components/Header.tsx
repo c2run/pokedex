@@ -1,9 +1,14 @@
-import React, { Component } from 'react'
 
-export default class Header extends Component {
-  render() {
+import styles from './header.module.css';
+
+const Header = () => {
     return (
-      <div>Header</div>
-    )
-  }
-}
+      <header className={styles.header}>
+        <input className={styles.input}
+         placeholder='Buscar pokemon' 
+         type="text" />
+      </header>
+    );
+  };
+
+export default Header;
